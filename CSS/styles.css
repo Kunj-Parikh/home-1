@@ -1,0 +1,123 @@
+.subsectext {
+    text-align: center;
+    /* color:#71207dff !important; */
+    /* margin: 5vh; */
+    margin: 10vh 30px 15vh 30px;
+    
+    font-size: 1.8rem;
+    /* font-size: x-large; */
+}
+h1,h2,h3 {
+    color: #71207dff;
+}
+
+
+/* #startler {
+    z-index: -1;
+    background-image: url("../img/HomescreenIMG.jpg");
+    position: relative;
+    height: 50vh;
+
+} */
+#startlerContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+    /* margin-bottom: 10vh; */
+}
+#startlerImg {
+    background-attachment: fixed;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100%; */
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+}
+#startlerText {
+    /* background-color: lavender;
+    /* color: black; */
+    font-size: 4rem;
+    width: 100%;
+    /* font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    width: 75%;
+    text-align: center; */
+    /* text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc; */
+    /* text-shadow: rgba(255,162,0,0.9) 0px 0px 39px; */
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode:screen; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+
+}
+.sm {
+    background-color: #f2bae4ff;
+    border: 0px;
+    color: rgb(12, 11, 11);
+    border-radius: 16px;
+    padding: 8px 14px;
+    font-weight: 700;
+    margin: 20px 0px 50px 5px;
+}
+
+body {
+    font-family: 'Poetsen One', sans-serif;
+}
+
+nav.navbar, footer {
+    font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.blog {
+    margin: 3vh 3vw 3vh 3vw;
+}
+#blogs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+/*       */
+.blogphoto {
+    border-radius: 6px;
+    width: 300px;
+
+}
+.blogtext {
+    margin-top: 20px;
+}
+.recentblogs {
+    margin-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 654px) {
+    /* #startlerText {
+        width: 75%;
+        font-size: 10vw;
+        
+    } */
+    #startlerText {
+        line-height: 1.5;
+    }
+    #startler {
+        background-position-x: -350px;
+        background-position-y: -100px;
+    }
+
+}
+@media only screen and (max-width: 760px) {
+    .disappear {
+        display: none;
+    }
+    
+}
